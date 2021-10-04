@@ -86,9 +86,14 @@ nav a {
   border: 0;
   border-radius: 6px;
   color: #fff;
-  padding: 0.5rem;
+  padding: .1rem;
   width: 2.5rem;
   height: 2.5rem;
+}
+
+nav a:focus {
+  outline: .1rem #000;
+  outline-offset: .1rem;
 }
 
 nav a:hover,
